@@ -31,6 +31,11 @@
 ```bash
 $ yarn install
 ```
+## Complete .env file with your credentials of Mosquitto server
+
+```
+change .copy.env to .env
+```
 
 ## Running the app
 
