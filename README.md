@@ -24,7 +24,8 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+I created an app with Amplify, which includes Cognito AppSync, DynamoDB, and also uses Eclipse Mosquitto for IoT. Mosquitto runs on a virtual machine, and I also have a NestJS app for the backend.
 
 ## Installation
 
