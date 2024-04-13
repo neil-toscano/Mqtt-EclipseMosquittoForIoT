@@ -19,7 +19,7 @@ export class Esp32Service {
     const data = {
       microcontrollerId,
       message,
-      isMotorRunning,
+      isMotorRunning: isMotorRunning.toString(),
     };
     this.client.publish(`testTopic/${microcontrollerId}`, JSON.stringify(data));
     return 'Actuar Motor - enviado';
